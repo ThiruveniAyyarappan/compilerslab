@@ -1,0 +1,58 @@
+<html>
+<head> 
+<style>
+.bg
+{
+    background-image: url("image.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+<title> Add product </title>
+<link rel="icon" href="benz.jpg" type="image/gif">
+</head>
+<body class="bg" align="center">
+<form>
+Product Name 
+<input name="Name" type="text"><br/>
+Product Description 
+<textarea name="message" rows="2" cols="30"></textarea><br/>
+Minimum price 
+<input name="price" type="number"><br/>
+category 
+<input type="radio" name="Category" value="Car" checked> Car<br> 
+<input type="radio" name="Category" value="Motorbike"> Motorbike<br>
+Company
+<input name="Name" type="text"> <br/>
+City
+<input name="Name" type="text"><br/>
+Product details<br/>
+<input type="file" name="Image" accept="image/*"><br/>
+Year 
+<input name="year" type="number" min=1800 max=1950><br/>
+Records maintained or not?<br/>
+<input type="radio" name="Record" value="Yes" checked> Yes<br> 
+<input type="radio" name="Record" value="No">No<br>
+Good condition or not?<br/>
+<input type="radio" name="Condition" value="Yes" checked> Yes<br> 
+<input type="radio" name="Condition" value="No">No<br>
+ Fuel type 
+<input name="Fuel type" type="text"><br/>
+Engine<br/>
+From <input name="year" type="number" min=0 max=2500> cc
+To <input name="year" type="number" min=200 max=3000> cc<br/>
+ Gear <br/>
+<input type="radio" name="Gear" value="Automatic" checked> Automatic<br> 
+<input type="radio" name="Gear" value="Manual">Manual<br>
+<input type="submit" value="Add">
+</form>
+</body>
+
+</html>
